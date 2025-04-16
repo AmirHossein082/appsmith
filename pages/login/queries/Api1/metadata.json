@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67ffc313a32c74179463edfc_5a62af5b-4b89-4051-92aa-a4b0a01eb046",
-  "id": "Page1_Api1",
+  "id": "login_Api1",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -50,7 +50,7 @@
     },
     "executeOnLoad": false,
     "name": "Api1",
-    "pageId": "Page1",
+    "pageId": "login",
     "userSetOnLoad": false
   }
 }
