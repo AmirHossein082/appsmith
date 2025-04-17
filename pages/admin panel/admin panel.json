@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "67ffc6ce2ce1797d446e7aaf_2bebb3e1-f1f3-4f2e-ac36-3f62868c4a36",
+  "gitSyncId": "67ffc6ce2ce1797d446e7aaf_094e82ce-4350-4fe4-899a-d39f40e7d01e",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 590,
+          "bottomRow": 800,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "dashboard",
-    "slug": "dashboard"
+    "name": "admin panel",
+    "slug": "admin-panel"
   }
 }

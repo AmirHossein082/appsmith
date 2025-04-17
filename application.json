@@ -12,6 +12,10 @@
     {
       "id": "dashboard",
       "isDefault": false
+    },
+    {
+      "id": "admin panel",
+      "isDefault": false
     }
   ]
 }

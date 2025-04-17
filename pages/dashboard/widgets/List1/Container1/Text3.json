@@ -44,7 +44,7 @@
   "rightColumn": 30,
   "shouldTruncate": false,
   "text": "ID: {{currentItem.id}}",
-  "textAlign": "LEFT",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
   "textStyle": "BODY",
   "topRow": 1,
