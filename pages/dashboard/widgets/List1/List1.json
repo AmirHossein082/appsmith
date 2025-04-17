@@ -80,6 +80,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "listData"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -94,7 +97,7 @@
   "itemSpacing": 8,
   "key": "d9iqc76vmj",
   "leftColumn": 3,
-  "listData": "",
+  "listData": "{{  search_tasks_api.data.filter(task => \n    task.assignee === appsmith.store.loginData.username && task.taskState !== \"COMPLETE\"\n  ) \n}}",
   "mainCanvasId": "mv3eckiykx",
   "mainContainerId": "292tu95fdw",
   "minWidth": 450,
@@ -103,11 +106,11 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "pageSize": 3,
+  "pageSize": 2,
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
-  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"taskState\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
