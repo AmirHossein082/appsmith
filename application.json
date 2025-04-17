@@ -8,6 +8,10 @@
     {
       "id": "login",
       "isDefault": true
+    },
+    {
+      "id": "dashboard",
+      "isDefault": false
     }
   ]
 }
